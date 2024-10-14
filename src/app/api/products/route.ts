@@ -51,7 +51,6 @@ export async function POST(request: Request) {
       price,
       rating,
       quantity,
-      imageUrl,
       createdAt: new Date(),
       updatedAt: new Date(),
     };
