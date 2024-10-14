@@ -6,9 +6,9 @@ export interface PantryItem {
   userId: string;
   name: string;
   price: number;
-  rating: number;
   quantity: number;
-  imageUrl: string;
+  rating: number;
+  // imageUrl: string; // Remove this line
   createdAt: Date;
   updatedAt: Date;
 }
